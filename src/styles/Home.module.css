@@ -1,0 +1,36 @@
+/* Home.module.css */
+.mainContent {
+    padding: .3rem .3rem; /* Adjust padding as needed */
+  }
+  
+  .leadText {
+    font-size: 1.25rem; /* Larger text for lead paragraphs */
+    margin-bottom: 1rem; /* Space between paragraphs and button */
+    color: #333; /* Adjust color to fit your design */
+  }
+  
+  .btnCustom {
+    display: inline-block; /* Necessary for links styled as buttons */
+    font-weight: bold; /* Bold font for button text */
+    border: 2px solid white; /* Adjust or remove border as needed */
+    background-color: white; /* White background, can adjust for theme */
+    color: #333; /* Text color, adjust as needed */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 0.25rem; /* Rounded corners for the button */
+  }
+
+  .btnCustom:hover, .btnCustom:focus {
+    background-color: #d1d5da; /* Darken button on hover/focus for feedback */
+    color: #212529; /* Darken text color slightly for contrast */
+}
+  
+  .btnLg {
+    font-size: 1.25rem; /* Larger font size for large buttons */
+    padding: 0.75rem 1.25rem; /* Larger padding for larger button */
+  }
+  
+  .btnLight {
+    color: #333; /* Dark text on light background */
+    background-color: #f8f9fa; /* Light background, adjust as needed */
+  }
